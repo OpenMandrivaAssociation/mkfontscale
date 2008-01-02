@@ -7,6 +7,7 @@ Source: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.t
 # add a few extra encodings
 Patch0: mkfontscale-1.0.3-mdv.patch
 License: MIT
+BuildRoot: %{_tmppath}/%{name}-root
 
 BuildRequires: libfontenc-devel >= 1.0.1
 BuildRequires: freetype2-devel >= 2.1.10
