@@ -1,6 +1,6 @@
 Name: mkfontscale
-Version: 1.0.5
-Release: %mkrel 2
+Version: 1.0.6
+Release: %mkrel 1
 Summary: Create an index of scalable font files for X
 Group: Development/X11
 URL: http://xorg.freedesktop.org
