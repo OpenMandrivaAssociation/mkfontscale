@@ -1,5 +1,5 @@
 Name: mkfontscale
-Version: 1.0.7
+Version: 1.0.8
 Release: %mkrel 1
 Summary: Create an index of scalable font files for X
 Group: Development/X11
