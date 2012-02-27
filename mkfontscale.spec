@@ -1,14 +1,13 @@
 Name: mkfontscale
-Version: 1.0.9
-Release: %mkrel 1
+Version: 1.1.0
+Release: 1
 Summary: Create an index of scalable font files for X
 Group: Development/X11
 URL: http://xorg.freedesktop.org
-Source: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
+Source0: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
 # add a few extra encodings
 Patch0: mkfontscale-1.0.3-mdv.patch
 License: MIT
-BuildRoot: %{_tmppath}/%{name}-root
 
 BuildRequires: libfontenc-devel >= 1.0.1
 BuildRequires: freetype2-devel >= 2.1.10
@@ -32,13 +31,8 @@ the directory.
 %make
 
 %install
-rm -rf %{buildroot}
 %makeinstall_std
 
-%clean
-rm -rf %{buildroot}
-
 %files
-%defattr(-,root,root)
 %{_bindir}/mkfontscale
 %{_mandir}/man1/mkfontscale.*
