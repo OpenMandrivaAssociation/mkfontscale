@@ -1,0 +1,12 @@
+--- mkfontscale-1.0.3/mkfontscale.c_old        2006-11-22 19:16:36.000000000 +0100
++++ mkfontscale-1.0.3/mkfontscale.c    2006-11-22 19:17:27.000000000 +0100
+@@ -74,6 +74,9 @@
+       "sun.unicode.india-0", "suneu-greek",
+       "adobe-standard", "adobe-symbol",
+       "ibm-cp437", "ibm-cp850", "ibm-cp852", "ibm-cp866", "microsoft-cp1252",
++        /* extra encodings, used by some legacy Mandriva locales */
++        "microsoft-cp1251", /* bg */
++        "tis620-0", "tis620.2533-1", /* th */
+       /* But not "adobe-dingbats", as it uses generic glyph names. */
+       "cns11643-1", "cns11643-2", "cns11643-3",
+       "jisx0201.1976-0", "jisx0208.1983-0", "jisx0208.1990-0",
