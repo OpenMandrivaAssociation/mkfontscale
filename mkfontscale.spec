@@ -14,6 +14,7 @@ Patch2:		mkfontscale-1.1.0-linkage.patch
 BuildRequires:	pkgconfig(fontenc)
 BuildRequires:	pkgconfig(freetype2)
 BuildRequires:	pkgconfig(x11)
+BuildRequires:	bzip2-devel
 BuildRequires:	x11-util-macros
 
 %description
