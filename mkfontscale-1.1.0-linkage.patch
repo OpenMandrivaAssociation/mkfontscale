@@ -1,0 +1,13 @@
+diff --git a/Makefile.in b/Makefile.in
+index 536dff1..744841a 100644
+--- a/Makefile.in
++++ b/Makefile.in
+@@ -276,7 +276,7 @@ top_srcdir = @top_srcdir@
+ SUBDIRS = man
+ AM_CPPFLAGS = @MKFONTSCALE_CFLAGS@ @X11_CFLAGS@ -D_BSD_SOURCE
+ AM_CFLAGS = $(CWARNFLAGS)
+-mkfontscale_LDADD = @MKFONTSCALE_LIBS@
++mkfontscale_LDADD = @MKFONTSCALE_LIBS@ -lbz2
+ mkfontscale_SOURCES = \
+ 	data.h \
+ 	hash.c \

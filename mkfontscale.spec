@@ -8,6 +8,8 @@ URL:		http://xorg.freedesktop.org
 Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
 # add a few extra encodings
 Patch0:		mkfontscale-1.0.3-mdv.patch
+Patch1:		aarch64.patch
+Patch2:		mkfontscale-1.1.0-linkage.patch
 
 BuildRequires:	pkgconfig(fontenc)
 BuildRequires:	pkgconfig(freetype2)
@@ -23,6 +25,8 @@ the directory.
 %prep
 %setup -q
 %patch0 -p1
+%patch1 -p1
+%patch2 -p1
 
 %build
 %configure2_5x	--x-includes=%{_includedir}\
