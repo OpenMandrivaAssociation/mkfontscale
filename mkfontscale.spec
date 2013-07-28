@@ -1,14 +1,13 @@
 Summary:	Create an index of scalable font files for X
 Name:		mkfontscale
-Version:	1.1.0
-Release:	2
+Version:	1.1.1
+Release:	1
 Group:		Development/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
 Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
 # add a few extra encodings
 Patch0:		mkfontscale-1.0.3-mdv.patch
-Patch1:		aarch64.patch
 Patch2:		mkfontscale-1.1.0-linkage.patch
 
 BuildRequires:	bzip2-devel
