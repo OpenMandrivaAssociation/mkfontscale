@@ -1,7 +1,7 @@
 Summary:	Create an index of scalable font files for X
 Name:		mkfontscale
-Version:	1.1.2
-Release:	4
+Version:	1.1.3
+Release:	1
 Group:		Development/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
