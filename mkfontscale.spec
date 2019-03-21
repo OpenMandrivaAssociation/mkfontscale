@@ -35,5 +35,5 @@ the directory.
 %make_install
 
 %files
-%{_bindir}/mkfontscale
-%{_mandir}/man1/mkfontscale.*
+%{_bindir}/mk*
+%{_mandir}/man1/mk*.*
