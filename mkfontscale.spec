@@ -1,7 +1,7 @@
 Summary:	Create an index of scalable font files for X
 Name:		mkfontscale
 Version:	1.2.2
-Release:	2
+Release:	3
 Group:		Development/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
@@ -14,6 +14,7 @@ BuildRequires:	pkgconfig(freetype2)
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xorg-macros)
 %rename mkfontdir
+Requires:	/bin/sh
 
 %description
 For each directory argument, mkfontscale reads all of the scalable font files
