@@ -4,7 +4,7 @@ Version:	1.2.2
 Release:	4
 Group:		Development/X11
 License:	MIT
-Url:		http://xorg.freedesktop.org
+Url:		https://xorg.freedesktop.org
 Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.xz
 # add a few extra encodings
 Patch0:		https://src.fedoraproject.org/rpms/mkfontscale/raw/rawhide/f/mkfontscale-examine-all-encodings.patch
