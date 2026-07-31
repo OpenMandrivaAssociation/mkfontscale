@@ -1,13 +1,13 @@
 Summary:	Create an index of scalable font files for X
 Name:		mkfontscale
-Version:	1.2.2
-Release:	4
+Version:	1.2.4
+Release:	1
 Group:		Development/X11
 License:	MIT
 Url:		https://xorg.freedesktop.org
 Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.xz
 # add a few extra encodings
-Patch0:		https://src.fedoraproject.org/rpms/mkfontscale/raw/rawhide/f/mkfontscale-examine-all-encodings.patch
+# dropped (no longer applies): Patch0:		https://src.fedoraproject.org/rpms/mkfontscale/raw/rawhide/f/mkfontscale-examine-all-encodings.patch
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libtool-base
